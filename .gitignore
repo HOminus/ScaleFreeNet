@@ -1,0 +1,12 @@
+.vscode/*
+**/target/**
+
+#See Stanford Large Network Dataset Collection
+data_plot/data/*
+
+notebooks/.ipynb_checkpoints/*
+
+#Linked in README
+papers/*
+
+test/*

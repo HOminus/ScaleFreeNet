@@ -1,0 +1,25 @@
+[package]
+name = "data_plot"
+version = "0.1.0"
+authors = ["Oliver Heilmann <oliver.heilmann@gmx.net>"]
+edition = "2018"
+
+[lib]
+name = "plot_help"
+path = "src/lib.rs"
+
+[[bin]]
+name = "beer"
+path = "src/bin/beer.rs"
+
+[[bin]]
+name = "higgs"
+path = "src/bin/higgs.rs"
+
+[[bin]]
+name = "physics"
+path = "src/bin/physics.rs"
+
+[dependencies]
+textplots = "0.5"
+structopt = "0.3"
